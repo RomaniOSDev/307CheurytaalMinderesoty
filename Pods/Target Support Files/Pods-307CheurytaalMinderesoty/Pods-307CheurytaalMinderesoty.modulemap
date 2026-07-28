@@ -1,0 +1,6 @@
+framework module Pods_307CheurytaalMinderesoty {
+  umbrella header "Pods-307CheurytaalMinderesoty-umbrella.h"
+
+  export *
+  module * { export * }
+}
