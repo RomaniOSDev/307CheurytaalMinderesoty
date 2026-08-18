@@ -15,6 +15,15 @@
 		2FCFE2D40572497331AB8E8F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49801938AC0BBEF5AAD06B05 /* SettingsView.swift */; };
 		33704DFC8E09F1CD9591ABDD /* RecipeDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ECC3C02AF01BA2C8FD9B3B /* RecipeDetailSheet.swift */; };
 		3591DEB5398D6CFDBB6AE6BE /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9949880920E370D7E0FEE /* MainTabView.swift */; };
+		37002BF13033447600A76321 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 37002BF03033447600A76321 /* AppsFlyerLib-Static */; };
+		37002BF23033455400A76321 /* AlamofireDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37E9CF4B303342A900EA55D9 /* AlamofireDynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37E9CF493033428B00EA55D9 /* CheurytaalMinderesotyUpdateManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9CF483033428000EA55D9 /* CheurytaalMinderesotyUpdateManeger.swift */; };
+		37E9CF4C303342A900EA55D9 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 37E9CF4B303342A900EA55D9 /* AlamofireDynamic */; };
+		37E9CF4F303342CA00EA55D9 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 37E9CF4E303342CA00EA55D9 /* AppsFlyerLib-Static */; };
+		37E9CF523033430C00EA55D9 /* CheurytaalMinderesotyServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9CF513033430500EA55D9 /* CheurytaalMinderesotyServices.swift */; };
+		37E9CF543033432300EA55D9 /* CheurytaalMinderesotyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9CF533033432000EA55D9 /* CheurytaalMinderesotyModel.swift */; };
+		37E9CF563033433400EA55D9 /* CheurytaalMinderesotyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9CF553033433100EA55D9 /* CheurytaalMinderesotyView.swift */; };
+		37E9CF583033439F00EA55D9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9CF573033439B00EA55D9 /* MainView.swift */; };
 		427BA9D1E7C37FDEE7BE4757 /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00730297B410A3A6C2223363 /* AppDataStore.swift */; };
 		46E24A05BB3843436F07E6A2 /* img_accent.png in Resources */ = {isa = PBXBuildFile; fileRef = 399E634C5E6C7CA4D0719648 /* img_accent.png */; };
 		4E72A8D13C72C4F05E8D28BF /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7A7E9396A486BCB004BD2D /* RecipesView.swift */; };
@@ -47,12 +56,32 @@
 		F049534A99F42ED0D2626732 /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92508CE968472F3C4BA7BA22 /* HapticService.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		37002BF33033455400A76321 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37002BF23033455400A76321 /* AlamofireDynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		00730297B410A3A6C2223363 /* AppDataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
 		0F70DEEFC68F384E69ECB004 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FC1C8B0A74616855AD92A07 /* Achievement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
 		1682D95B38CB744755453017 /* AppLinks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
 		2DE9949880920E370D7E0FEE /* MainTabView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		37E9CF483033428000EA55D9 /* CheurytaalMinderesotyUpdateManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheurytaalMinderesotyUpdateManeger.swift; sourceTree = "<group>"; };
+		37E9CF50303342D200EA55D9 /* 307CheurytaalMinderesoty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 307CheurytaalMinderesoty.entitlements; sourceTree = "<group>"; };
+		37E9CF513033430500EA55D9 /* CheurytaalMinderesotyServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheurytaalMinderesotyServices.swift; sourceTree = "<group>"; };
+		37E9CF533033432000EA55D9 /* CheurytaalMinderesotyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheurytaalMinderesotyModel.swift; sourceTree = "<group>"; };
+		37E9CF553033433100EA55D9 /* CheurytaalMinderesotyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheurytaalMinderesotyView.swift; sourceTree = "<group>"; };
+		37E9CF573033439B00EA55D9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		37ECC3C02AF01BA2C8FD9B3B /* RecipeDetailSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecipeDetailSheet.swift; sourceTree = "<group>"; };
 		399E634C5E6C7CA4D0719648 /* img_accent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = img_accent.png; sourceTree = "<group>"; };
 		41CC3CB625094C7046902F74 /* AchievementsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
@@ -99,6 +128,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E9CF4C303342A900EA55D9 /* AlamofireDynamic in Frameworks */,
+				37E9CF4F303342CA00EA55D9 /* AppsFlyerLib-Static in Frameworks */,
+				37002BF13033447600A76321 /* AppsFlyerLib-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +263,10 @@
 		844EE0F2956CCD9C1813AF3D /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				37E9CF553033433100EA55D9 /* CheurytaalMinderesotyView.swift */,
+				37E9CF533033432000EA55D9 /* CheurytaalMinderesotyModel.swift */,
+				37E9CF513033430500EA55D9 /* CheurytaalMinderesotyServices.swift */,
+				37E9CF483033428000EA55D9 /* CheurytaalMinderesotyUpdateManeger.swift */,
 				1682D95B38CB744755453017 /* AppLinks.swift */,
 				92508CE968472F3C4BA7BA22 /* HapticService.swift */,
 				B21C0D001F1A2B3C4D5E6F08 /* NotificationService.swift */,
@@ -308,6 +344,7 @@
 		BCC92F6222A09B80B8FC4EF3 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				37E9CF573033439B00EA55D9 /* MainView.swift */,
 				69E979421298D15087B080C0 /* AppDelegate.swift */,
 				E7243AA90EEBA69F07C0FBE6 /* SceneDelegate.swift */,
 			);
@@ -347,6 +384,7 @@
 		F130C43A34EDE08E12542AC7 /* 307CheurytaalMinderesoty */ = {
 			isa = PBXGroup;
 			children = (
+				37E9CF50303342D200EA55D9 /* 307CheurytaalMinderesoty.entitlements */,
 				BCC92F6222A09B80B8FC4EF3 /* App */,
 				6DE8EA6996C99FB866AA96EE /* Components */,
 				D38F2AB7E50DBA052D125ECA /* Models */,
@@ -374,6 +412,7 @@
 				B0310921BD2E69FB4E18525A /* Sources */,
 				D911E622CC353A467356A7CD /* Frameworks */,
 				50E31125098CD2DC03D4217A /* Resources */,
+				37002BF33033455400A76321 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -403,6 +442,10 @@
 				Base,
 			);
 			mainGroup = 49FAA32A8E1AC1BE914E8752;
+			packageReferences = (
+				37E9CF4A303342A900EA55D9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				37002BEF3033447600A76321 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
 			productRefGroup = D5A2D4F59C0F5FE7BC39121C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -459,9 +502,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E9CF523033430C00EA55D9 /* CheurytaalMinderesotyServices.swift in Sources */,
+				37E9CF583033439F00EA55D9 /* MainView.swift in Sources */,
 				7AF968633755DB22BBC2637B /* AppDelegate.swift in Sources */,
 				5710703CF31A38DAC10E60DF /* SceneDelegate.swift in Sources */,
 				BE59C5CDF5624624650BFC72 /* DesignComponents.swift in Sources */,
+				37E9CF543033432300EA55D9 /* CheurytaalMinderesotyModel.swift in Sources */,
 				B3CBB2A8ECFA82E35EB2B027 /* Achievement.swift in Sources */,
 				26D7C7F1197ABBA9976C22A3 /* CookTimer.swift in Sources */,
 				ADFEADDF02889769AC1F02F4 /* GroceryItem.swift in Sources */,
@@ -469,6 +515,7 @@
 				B21C0D001F1A2B3C4D5E6F01 /* RecipeNote.swift in Sources */,
 				B21C0D001F1A2B3C4D5E6F03 /* MealPlan.swift in Sources */,
 				B21C0D001F1A2B3C4D5E6F05 /* DailyContent.swift in Sources */,
+				37E9CF493033428B00EA55D9 /* CheurytaalMinderesotyUpdateManeger.swift in Sources */,
 				A3E7523EF57E4AA242F9AC71 /* AppLinks.swift in Sources */,
 				F049534A99F42ED0D2626732 /* HapticService.swift in Sources */,
 				B21C0D001F1A2B3C4D5E6F07 /* NotificationService.swift in Sources */,
@@ -480,6 +527,7 @@
 				0A25B896E3A47E3E4174623E /* ContentView.swift in Sources */,
 				C783F3A638B3AD9AE3E180F5 /* CartSegmentView.swift in Sources */,
 				535C54557656A87B16AD9C2D /* KitchenView.swift in Sources */,
+				37E9CF563033433400EA55D9 /* CheurytaalMinderesotyView.swift in Sources */,
 				B21C0D001F1A2B3C4D5E6F0D /* MealPlanSegmentView.swift in Sources */,
 				1B889D13041ACA7256DE0664 /* TimersSegmentView.swift in Sources */,
 				3591DEB5398D6CFDBB6AE6BE /* MainTabView.swift in Sources */,
@@ -503,6 +551,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = 307CheurytaalMinderesoty/307CheurytaalMinderesoty.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -515,7 +564,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.frb.ch34rkt78lk;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -535,6 +584,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = 307CheurytaalMinderesoty/307CheurytaalMinderesoty.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -547,7 +597,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.frb.ch34rkt78lk;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -704,6 +754,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		37002BEF3033447600A76321 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.18.1;
+			};
+		};
+		37E9CF4A303342A900EA55D9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.0;
+			};
+		};
+		37E9CF4D303342CA00EA55D9 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37002BF03033447600A76321 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37002BEF3033447600A76321 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		37E9CF4B303342A900EA55D9 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37E9CF4A303342A900EA55D9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		37E9CF4E303342CA00EA55D9 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37E9CF4D303342CA00EA55D9 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7DAE4F6FEF8ACC8DF90691DD /* Project object */;
 }
